@@ -12,7 +12,7 @@ var Greeter = React.createClass({
             this.setState({
                 needsRender: false
             });
-
+            var cat = 1;
             return true;
         }
 
